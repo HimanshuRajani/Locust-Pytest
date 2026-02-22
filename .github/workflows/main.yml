@@ -7,9 +7,6 @@ on:
     branches: [main]
 
 jobs:
-  load-test:
-    runs-on: ubuntu-latest
-  
   test:
     runs-on: ubuntu-latest
     strategy:
